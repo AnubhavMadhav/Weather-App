@@ -47,16 +47,16 @@
                         <article class="media">
                             <div class="media-left">
                                 <figure class="image is-50x50">
-                                    <img src="http://openweathermap.org/img/w/10d.png" alt="Image">
+                                    <img src="http://openweathermap.org/img/w/{{ icon }}.png" alt="Image">
                                 </figure>
                             </div>
                             <div class="media-content">
                                 <div class="content">
                                     <p>
-                                        <span class="title">Vadodara</span>
+                                        <span class="title">{{ city }}</span>
                                         <br>
-                                        <span class="subtitle">29° C</span>
-                                        <br> sunny and calm day
+                                        <span class="subtitle">{{ temperature }}°C</span>
+                                        <br> {{ description }}
                                     </p>
                                 </div>
                             </div>
