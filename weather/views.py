@@ -5,7 +5,8 @@ from . forms import CityForm
 
 # Create your views here.
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=ccc3992728385e710009902808f28b61'
+    # Get an API Key for FREE from https://openweathermap.org/current just by signing up on this website.
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={Enter API Key here}'
 
     err_msg = ''
     message = ''
